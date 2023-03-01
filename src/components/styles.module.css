@@ -205,3 +205,11 @@ img {
 .Button:focus {
   background-color: #303f9f;
 }
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #010101;
+  flex-direction: column;
+}

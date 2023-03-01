@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 import styles from './filter.module.css';
 
-const Filter = ({ handleChange }) => {
+const Filter = ({ handleChange, value }) => {
   return (
     <div>
       <label className={styles.label}>Find contacts by name</label>
@@ -11,6 +11,7 @@ const Filter = ({ handleChange }) => {
         type="text"
         name="filter"
         onChange={handleChange}
+        value={value}
       />
     </div>
   );
